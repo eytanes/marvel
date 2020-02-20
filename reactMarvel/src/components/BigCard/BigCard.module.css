@@ -1,0 +1,36 @@
+.card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-color: coral;
+    border: 1px solid brown;
+}
+.title {
+    color:black;
+}
+.image {
+    width: 64px;
+    height: 64px;
+    background-color: black;
+}
+.close {
+    cursor: pointer;
+    float: right;
+    width: 50px;
+}
+.textAreaComment {
+    position: relative;
+}
+.input {
+    width: 500px;
+    height: 50px;
+}
+.button {
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    cursor: pointer;
+}

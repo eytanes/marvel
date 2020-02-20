@@ -1,0 +1,14 @@
+.cardlist {
+    background-image: url('../../image/space.jpg');
+    border: 2px solid black;
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   margin-bottom: 5px;
+    
+   
+
+}

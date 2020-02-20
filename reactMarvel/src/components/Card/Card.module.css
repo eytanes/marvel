@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #c60606;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #eb750f;;
+  }
+  
+
+  ::-webkit-scrollbar-button {
+      background-color: black;
+  }
+
+
+.card {
+    background-color: coral;
+    border: 1px solid brown;
+    border-radius: 17%;
+    width: 300px;
+    height: 200px;
+    
+    margin-left: 100px;
+    margin-top: 20px;
+    overflow: auto;
+    cursor: pointer
+
+}
+
+    .card::-webkit-scrollbar {
+        display: none;
+    }
+    
+
+.title {
+    color:rgb(239, 243, 239);
+}
+.image {
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 40%;
+}
