@@ -1,3 +1,5 @@
+Don't forget to run the command npm i in the terminal  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
