@@ -26,7 +26,7 @@ class Search extends Component {
         const { search, isLoading } = this.state;
         return(
             <div className={styles.bg}>
-            <input className={styles.input} onChange={this.onChange} value={search} placeholder="chercher un super-heros"/>
+            <input className={styles.input} onChange={this.onChange} value={search} placeholder="chercher un super-héros"/>
             {isLoading && <Ellipsis />}
             </div>
         )
